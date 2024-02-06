@@ -1,0 +1,119 @@
+
+/* Styles Globals */
+
+body {
+
+    margin: 0;
+    background-color: rgb(201, 201, 201);
+    text-align: center;
+    line-height: 2.0;
+}
+
+hr {
+
+    margin-top: 50px;
+
+}
+
+
+h4 {
+
+    text-align: justify;
+    text-indent: 100px;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 200;
+
+}
+
+
+li {
+
+    list-style: none;
+    margin-top: 20px;
+
+}
+
+/* Styles Classes */
+
+.mention {
+
+    text-align: justify;
+    margin-left: 42px;
+    font-size: 18px;
+
+}
+
+.bold {
+
+    font-weight: 600;
+
+}
+
+.profile {
+
+    border-radius: 50%;
+    margin-bottom: 0px;
+
+}
+
+.icon {
+
+    width: 50px;
+
+}
+
+.mainBody {
+
+    background-color: rgb(245, 245, 245);
+    margin: 3em 10em;
+    padding: 4em;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px 0px #888888;
+    
+}
+
+.sectionTitle {
+
+    text-align: center;
+    text-indent: 0;
+
+}
+
+.whiteSpace {
+
+    margin-top: 50px;
+    display: block;
+
+}
+
+/* Styles IDs */
+
+#progress-container {
+    width: 300px;
+    height: 20px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+#progress-bar-html {
+    height: 100%;
+    background-color: #e94f0e;
+    width: 300px; /* Initially set to 0% */
+    transition: width 0.3s; /* Add a smooth transition effect */
+}
+
+#progress-bar-css {
+    height: 100%;
+    background-color: #1f97ed;
+    width: 280px; /* Initially set to 0% */
+    transition: width 0.3s; /* Add a smooth transition effect */
+}
+
+#progress-bar-js {
+    height: 100%;
+    background-color: #f4f010;
+    width: 270px; /* Initially set to 0% */
+    transition: width 0.3s; /* Add a smooth transition effect */
+}
