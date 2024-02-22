@@ -88,6 +88,18 @@ li {
 
 }
 
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.grid-container li {
+    list-style: none;
+    text-align: center;
+    margin: 10px;
+}
+
 /* Styles IDs */
 
 #progress-container {
